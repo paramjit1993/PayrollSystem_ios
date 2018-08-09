@@ -10,13 +10,31 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var txtUserName: UITextField!
+    @IBOutlet weak var txtPassword: UITextField!
+    @IBAction func swRem(_ sender: UISwitch) {
+    }
+    
+    @IBAction func btLogin(_ sender: UIButton) {
+        if txtUserName.text == "admin@a.com" && txtPassword.text == "SECRET"
+        {
+            performSegue(withIdentifier: "showHomeScreen", sender: self)
+            print("Login Success")
+            
+        }
+        else{
+            print("User Email / Password incorrect")
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
+  
+    
+  override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
