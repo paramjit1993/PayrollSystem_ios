@@ -13,6 +13,8 @@
 		9BB1559A211B8ABA00F093CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB15599211B8ABA00F093CC /* Assets.xcassets */; };
 		9BB1559D211B8ABA00F093CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB1559B211B8ABA00F093CC /* LaunchScreen.storyboard */; };
 		9BB155A5211B91F500F093CC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB155A4211B91F500F093CC /* LoginViewController.swift */; };
+		9BD5A9C72123758700B29E79 /* signUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5A9C62123758700B29E79 /* signUPViewController.swift */; };
+		9BD5A9C9212375D000B29E79 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5A9C8212375D000B29E79 /* HomeScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9BB1559C211B8ABA00F093CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BB1559E211B8ABA00F093CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BB155A4211B91F500F093CC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9BD5A9C62123758700B29E79 /* signUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUPViewController.swift; sourceTree = "<group>"; };
+		9BD5A9C8212375D000B29E79 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				9BB1559B211B8ABA00F093CC /* LaunchScreen.storyboard */,
 				9BB1559E211B8ABA00F093CC /* Info.plist */,
 				9BB155A4211B91F500F093CC /* LoginViewController.swift */,
+				9BD5A9C62123758700B29E79 /* signUPViewController.swift */,
+				9BD5A9C8212375D000B29E79 /* HomeScreenViewController.swift */,
 			);
 			path = PayrollSystem;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				9BB155A5211B91F500F093CC /* LoginViewController.swift in Sources */,
 				9BB15595211B8ABA00F093CC /* SplashViewController.swift in Sources */,
+				9BD5A9C72123758700B29E79 /* signUPViewController.swift in Sources */,
 				9BB15593211B8ABA00F093CC /* AppDelegate.swift in Sources */,
+				9BD5A9C9212375D000B29E79 /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
