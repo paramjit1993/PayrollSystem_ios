@@ -150,7 +150,7 @@
         <scene sceneID="ZXf-tM-jEL">
             <objects>
                 <viewController id="OXB-4R-PQ6" customClass="signUPViewController" customModule="PayrollSystem" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="l8v-j5-3s2">
+                    <view key="view" contentMode="scaleToFill" id="l8v-j5-3s2" customClass="SignUp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -187,6 +187,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.92347652140000003" blue="0.49308519099999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Register"/>
+                                <connections>
+                                    <action selector="btRegister:" destination="OXB-4R-PQ6" eventType="touchUpInside" id="bOB-Da-i1j"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Employee Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rzl-VS-cj5">
                                 <rect key="frame" x="16" y="125" width="343" height="21"/>
@@ -230,6 +233,12 @@
                         <color key="backgroundColor" red="0.26719653350870765" green="1" blue="0.81912534529963432" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="bgH-OL-fAi"/>
                     </view>
+                    <connections>
+                        <outlet property="txtConfirmPassword" destination="IZK-aJ-18f" id="URO-d9-lCk"/>
+                        <outlet property="txtEmail" destination="4Vg-sN-S4A" id="FW2-tM-Cpx"/>
+                        <outlet property="txtEmpName" destination="8vD-XD-mxv" id="KNJ-qB-QTa"/>
+                        <outlet property="txtPassword" destination="B8T-qn-8HI" id="gZ9-5W-K8e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SfL-Gu-M9B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

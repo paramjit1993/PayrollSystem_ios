@@ -9,7 +9,11 @@
 import UIKit
 
 class signUPViewController: UIViewController {
-
+    @IBOutlet weak var txtEmpName: UITextField!
+    @IBOutlet weak var txtEmail: UITextField!
+    @IBOutlet weak var txtPassword: UITextField!
+    @IBOutlet weak var txtConfirmPassword: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +26,27 @@ class signUPViewController: UIViewController {
     }
     
 
+    @IBAction func btRegister(_ sender: Any) {
+        
+        let empName = txtEmpName.text
+         let empEmail = txtEmail.text
+         let empPassword = txtPassword.text
+         let empConfirmPassword = txtConfirmPassword.text
+        
+        if ( txtEmpName.isEmpty || txtEmail.isEmpty || txtPassword.isEmpty || txtConfirmPassword.isEmpty){
+            
+            displayMyAlertMessage("All Fields Mandatory")
+            return;
+        }
+    }
+    
+    
+    func displayMyAlertMessage(userMessage: String)
+    {
+        var MyAlert = UIAlertController(title: "Alert", message: userMessage,preferredStyle: UIAlertControllerStyle.alert);
+        
+        let okAction = UIAlertAction(title: "OK", style:);
+    }
     /*
     // MARK: - Navigation
 
