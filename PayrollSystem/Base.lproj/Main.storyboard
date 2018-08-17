@@ -139,7 +139,6 @@
                         <outlet property="swRem" destination="rqf-r7-XSM" id="7ph-1e-66q"/>
                         <outlet property="txtPassword" destination="a7j-G2-Fyp" id="vDz-0E-R0w"/>
                         <outlet property="txtUserName" destination="UYc-rb-0hv" id="Qt7-9L-d3r"/>
-                        <segue destination="TWl-mq-p4y" kind="show" identifier="showHomeScreen" id="BUA-RV-nFa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p5i-dY-Duq" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -238,13 +237,14 @@
                         <outlet property="txtEmail" destination="4Vg-sN-S4A" id="FW2-tM-Cpx"/>
                         <outlet property="txtEmpName" destination="8vD-XD-mxv" id="KNJ-qB-QTa"/>
                         <outlet property="txtPassword" destination="B8T-qn-8HI" id="gZ9-5W-K8e"/>
+                        <segue destination="TWl-mq-p4y" kind="show" id="LNP-Jt-IfR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SfL-Gu-M9B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1137" y="-257"/>
         </scene>
-        <!--Home Screen View Controller-->
+        <!--Item-->
         <scene sceneID="Pl1-oU-lOc">
             <objects>
                 <viewController id="TWl-mq-p4y" customClass="HomeScreenViewController" customModule="PayrollSystem" customModuleProvider="target" sceneMemberID="viewController">
@@ -313,10 +313,11 @@
                         <color key="backgroundColor" red="0.31054742302709448" green="1" blue="0.81184952080905515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="E9K-S4-nxh"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="4s5-ir-J8A"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HS7-HJ-6aA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1137" y="446"/>
+            <point key="canvasLocation" x="1849" y="-237"/>
         </scene>
     </scenes>
 </document>
