@@ -13,6 +13,16 @@
 		9BB1559A211B8ABA00F093CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB15599211B8ABA00F093CC /* Assets.xcassets */; };
 		9BB1559D211B8ABA00F093CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB1559B211B8ABA00F093CC /* LaunchScreen.storyboard */; };
 		9BB155A5211B91F500F093CC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB155A4211B91F500F093CC /* LoginViewController.swift */; };
+		9BC118E8212B63C100B828A7 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC118E7212B63C100B828A7 /* Car.swift */; };
+		9BC118EA212B63F300B828A7 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC118E9212B63F300B828A7 /* Vehicle.swift */; };
+		9BC118EC212B644A00B828A7 /* IPrintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC118EB212B644A00B828A7 /* IPrintable.swift */; };
+		9BC118EE212B648700B828A7 /* MotorCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC118ED212B648700B828A7 /* MotorCycle.swift */; };
+		9BC118F0212B64B900B828A7 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC118EF212B64B900B828A7 /* Employee.swift */; };
+		9BC118F2212B64F400B828A7 /* PartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC118F1212B64F400B828A7 /* PartTime.swift */; };
+		9BC118F4212B650F00B828A7 /* FullTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC118F3212B650F00B828A7 /* FullTime.swift */; };
+		9BC118F6212B653B00B828A7 /* Intern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC118F5212B653B00B828A7 /* Intern.swift */; };
+		9BC118F8212B656F00B828A7 /* CommisionBasedPartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC118F7212B656F00B828A7 /* CommisionBasedPartTime.swift */; };
+		9BC118FA212B65A400B828A7 /* FixedBasedPartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC118F9212B65A400B828A7 /* FixedBasedPartTime.swift */; };
 		9BD5A9C72123758700B29E79 /* signUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5A9C62123758700B29E79 /* signUPViewController.swift */; };
 		9BD5A9C9212375D000B29E79 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5A9C8212375D000B29E79 /* HomeScreenViewController.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +36,16 @@
 		9BB1559C211B8ABA00F093CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BB1559E211B8ABA00F093CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BB155A4211B91F500F093CC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9BC118E7212B63C100B828A7 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		9BC118E9212B63F300B828A7 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		9BC118EB212B644A00B828A7 /* IPrintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPrintable.swift; sourceTree = "<group>"; };
+		9BC118ED212B648700B828A7 /* MotorCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorCycle.swift; sourceTree = "<group>"; };
+		9BC118EF212B64B900B828A7 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		9BC118F1212B64F400B828A7 /* PartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTime.swift; sourceTree = "<group>"; };
+		9BC118F3212B650F00B828A7 /* FullTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullTime.swift; sourceTree = "<group>"; };
+		9BC118F5212B653B00B828A7 /* Intern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intern.swift; sourceTree = "<group>"; };
+		9BC118F7212B656F00B828A7 /* CommisionBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommisionBasedPartTime.swift; sourceTree = "<group>"; };
+		9BC118F9212B65A400B828A7 /* FixedBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedBasedPartTime.swift; sourceTree = "<group>"; };
 		9BD5A9C62123758700B29E79 /* signUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUPViewController.swift; sourceTree = "<group>"; };
 		9BD5A9C8212375D000B29E79 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +89,16 @@
 				9BB155A4211B91F500F093CC /* LoginViewController.swift */,
 				9BD5A9C62123758700B29E79 /* signUPViewController.swift */,
 				9BD5A9C8212375D000B29E79 /* HomeScreenViewController.swift */,
+				9BC118E7212B63C100B828A7 /* Car.swift */,
+				9BC118E9212B63F300B828A7 /* Vehicle.swift */,
+				9BC118EB212B644A00B828A7 /* IPrintable.swift */,
+				9BC118ED212B648700B828A7 /* MotorCycle.swift */,
+				9BC118EF212B64B900B828A7 /* Employee.swift */,
+				9BC118F1212B64F400B828A7 /* PartTime.swift */,
+				9BC118F3212B650F00B828A7 /* FullTime.swift */,
+				9BC118F5212B653B00B828A7 /* Intern.swift */,
+				9BC118F7212B656F00B828A7 /* CommisionBasedPartTime.swift */,
+				9BC118F9212B65A400B828A7 /* FixedBasedPartTime.swift */,
 			);
 			path = PayrollSystem;
 			sourceTree = "<group>";
@@ -146,9 +176,19 @@
 			files = (
 				9BB155A5211B91F500F093CC /* LoginViewController.swift in Sources */,
 				9BB15595211B8ABA00F093CC /* SplashViewController.swift in Sources */,
+				9BC118F8212B656F00B828A7 /* CommisionBasedPartTime.swift in Sources */,
+				9BC118E8212B63C100B828A7 /* Car.swift in Sources */,
+				9BC118F4212B650F00B828A7 /* FullTime.swift in Sources */,
+				9BC118F0212B64B900B828A7 /* Employee.swift in Sources */,
 				9BD5A9C72123758700B29E79 /* signUPViewController.swift in Sources */,
+				9BC118FA212B65A400B828A7 /* FixedBasedPartTime.swift in Sources */,
+				9BC118EA212B63F300B828A7 /* Vehicle.swift in Sources */,
+				9BC118EE212B648700B828A7 /* MotorCycle.swift in Sources */,
+				9BC118EC212B644A00B828A7 /* IPrintable.swift in Sources */,
+				9BC118F6212B653B00B828A7 /* Intern.swift in Sources */,
 				9BB15593211B8ABA00F093CC /* AppDelegate.swift in Sources */,
 				9BD5A9C9212375D000B29E79 /* HomeScreenViewController.swift in Sources */,
+				9BC118F2212B64F400B828A7 /* PartTime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
